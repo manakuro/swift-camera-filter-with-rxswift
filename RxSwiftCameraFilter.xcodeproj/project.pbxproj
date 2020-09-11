@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		326B937BED636E5B63165F91 /* Pods_RxSwiftCameraFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5E8D03739D52653FE1AA6 /* Pods_RxSwiftCameraFilter.framework */; };
+		BEDF2887250B3A640096ACEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF2886250B3A640096ACEB /* AppDelegate.swift */; };
+		BEDF2889250B3A640096ACEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF2888250B3A640096ACEB /* SceneDelegate.swift */; };
+		BEDF288B250B3A640096ACEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF288A250B3A640096ACEB /* ViewController.swift */; };
+		BEDF288E250B3A640096ACEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDF288C250B3A640096ACEB /* Main.storyboard */; };
+		BEDF2890250B3A680096ACEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDF288F250B3A680096ACEB /* Assets.xcassets */; };
+		BEDF2893250B3A680096ACEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDF2891250B3A680096ACEB /* LaunchScreen.storyboard */; };
+		BEDF289B250B3B100096ACEB /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF289A250B3B100096ACEB /* PhotosCollectionViewController.swift */; };
+		BEF9D770250B420900975123 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF9D76F250B420900975123 /* PhotoCollectionViewCell.swift */; };
+		BEF9D772250B487A00975123 /* FilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF9D771250B487A00975123 /* FilterService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03874D9C99A2DE2D958FE1ED /* Pods-RxSwiftCameraFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCameraFilter.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftCameraFilter/Pods-RxSwiftCameraFilter.debug.xcconfig"; sourceTree = "<group>"; };
+		42DC3DE8A5EF1E62DB523F80 /* Pods-RxSwiftCameraFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCameraFilter.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftCameraFilter/Pods-RxSwiftCameraFilter.release.xcconfig"; sourceTree = "<group>"; };
+		8FA5E8D03739D52653FE1AA6 /* Pods_RxSwiftCameraFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftCameraFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDF2883250B3A640096ACEB /* RxSwiftCameraFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftCameraFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDF2886250B3A640096ACEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEDF2888250B3A640096ACEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEDF288A250B3A640096ACEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEDF288D250B3A640096ACEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEDF288F250B3A680096ACEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEDF2892250B3A680096ACEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEDF2894250B3A680096ACEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDF289A250B3B100096ACEB /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		BEF9D76F250B420900975123 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEF9D771250B487A00975123 /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEDF2880250B3A640096ACEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326B937BED636E5B63165F91 /* Pods_RxSwiftCameraFilter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		894DE4587F63C11CBF552678 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03874D9C99A2DE2D958FE1ED /* Pods-RxSwiftCameraFilter.debug.xcconfig */,
+				42DC3DE8A5EF1E62DB523F80 /* Pods-RxSwiftCameraFilter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BEDF287A250B3A640096ACEB = {
+			isa = PBXGroup;
+			children = (
+				BEDF2885250B3A640096ACEB /* RxSwiftCameraFilter */,
+				BEDF2884250B3A640096ACEB /* Products */,
+				894DE4587F63C11CBF552678 /* Pods */,
+				F8B44EE2E0231E9F8771CEA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEDF2884250B3A640096ACEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEDF2883250B3A640096ACEB /* RxSwiftCameraFilter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEDF2885250B3A640096ACEB /* RxSwiftCameraFilter */ = {
+			isa = PBXGroup;
+			children = (
+				BEDF2886250B3A640096ACEB /* AppDelegate.swift */,
+				BEDF2888250B3A640096ACEB /* SceneDelegate.swift */,
+				BEDF288A250B3A640096ACEB /* ViewController.swift */,
+				BEDF288C250B3A640096ACEB /* Main.storyboard */,
+				BEDF288F250B3A680096ACEB /* Assets.xcassets */,
+				BEDF2891250B3A680096ACEB /* LaunchScreen.storyboard */,
+				BEDF2894250B3A680096ACEB /* Info.plist */,
+				BEDF289A250B3B100096ACEB /* PhotosCollectionViewController.swift */,
+				BEF9D76F250B420900975123 /* PhotoCollectionViewCell.swift */,
+				BEF9D771250B487A00975123 /* FilterService.swift */,
+			);
+			path = RxSwiftCameraFilter;
+			sourceTree = "<group>";
+		};
+		F8B44EE2E0231E9F8771CEA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA5E8D03739D52653FE1AA6 /* Pods_RxSwiftCameraFilter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEDF2882250B3A640096ACEB /* RxSwiftCameraFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDF2897250B3A680096ACEB /* Build configuration list for PBXNativeTarget "RxSwiftCameraFilter" */;
+			buildPhases = (
+				85D312E01204A969EE7B621A /* [CP] Check Pods Manifest.lock */,
+				BEDF287F250B3A640096ACEB /* Sources */,
+				BEDF2880250B3A640096ACEB /* Frameworks */,
+				BEDF2881250B3A640096ACEB /* Resources */,
+				D5925365FFFBB82CD5C039F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxSwiftCameraFilter;
+			productName = RxSwiftCameraFilter;
+			productReference = BEDF2883250B3A640096ACEB /* RxSwiftCameraFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEDF287B250B3A640096ACEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = manato;
+				TargetAttributes = {
+					BEDF2882250B3A640096ACEB = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = BEDF287E250B3A640096ACEB /* Build configuration list for PBXProject "RxSwiftCameraFilter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEDF287A250B3A640096ACEB;
+			productRefGroup = BEDF2884250B3A640096ACEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEDF2882250B3A640096ACEB /* RxSwiftCameraFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEDF2881250B3A640096ACEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDF2893250B3A680096ACEB /* LaunchScreen.storyboard in Resources */,
+				BEDF2890250B3A680096ACEB /* Assets.xcassets in Resources */,
+				BEDF288E250B3A640096ACEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85D312E01204A969EE7B621A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftCameraFilter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5925365FFFBB82CD5C039F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftCameraFilter/Pods-RxSwiftCameraFilter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftCameraFilter/Pods-RxSwiftCameraFilter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftCameraFilter/Pods-RxSwiftCameraFilter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEDF287F250B3A640096ACEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDF288B250B3A640096ACEB /* ViewController.swift in Sources */,
+				BEF9D770250B420900975123 /* PhotoCollectionViewCell.swift in Sources */,
+				BEDF2887250B3A640096ACEB /* AppDelegate.swift in Sources */,
+				BEF9D772250B487A00975123 /* FilterService.swift in Sources */,
+				BEDF2889250B3A640096ACEB /* SceneDelegate.swift in Sources */,
+				BEDF289B250B3B100096ACEB /* PhotosCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEDF288C250B3A640096ACEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDF288D250B3A640096ACEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEDF2891250B3A680096ACEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDF2892250B3A680096ACEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEDF2895250B3A680096ACEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEDF2896250B3A680096ACEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEDF2898250B3A680096ACEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03874D9C99A2DE2D958FE1ED /* Pods-RxSwiftCameraFilter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxSwiftCameraFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manato.RxSwiftCameraFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEDF2899250B3A680096ACEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DC3DE8A5EF1E62DB523F80 /* Pods-RxSwiftCameraFilter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxSwiftCameraFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manato.RxSwiftCameraFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEDF287E250B3A640096ACEB /* Build configuration list for PBXProject "RxSwiftCameraFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDF2895250B3A680096ACEB /* Debug */,
+				BEDF2896250B3A680096ACEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDF2897250B3A680096ACEB /* Build configuration list for PBXNativeTarget "RxSwiftCameraFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDF2898250B3A680096ACEB /* Debug */,
+				BEDF2899250B3A680096ACEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEDF287B250B3A640096ACEB /* Project object */;
+}
